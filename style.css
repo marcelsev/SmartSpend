@@ -24,7 +24,7 @@ nav {
   object-position: center;
 }
 
-.form-compte{
+/* .form-compte{
 
   background-color: #148dd1;
   border-radius: 33px;
@@ -138,7 +138,7 @@ nav {
 }
 
 
-
+ */
 
 
 
@@ -151,6 +151,14 @@ nav {
   border-radius: 15%;
   background-color: #158dd1;
 }
+
+.card-body{
+  background-color: #ecf2ff;
+}
+
+.text-edit{
+  font-size: 0.8em;
+}
 .signup{
   
   margin-top: 20px;
@@ -160,8 +168,9 @@ nav {
   background-color: #158dd1;
 }
 .comment{
-  padding: 5px;
+  padding: 4px;
   background-color: white;
+  font-size: 0.7em;
 }
 
 /* footer */
