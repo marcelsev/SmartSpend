@@ -151,7 +151,9 @@ nav {
   border-radius: 15%;
   background-color: #158dd1;
 }
-
+.cont-max-width {
+  max-width: 600px;
+}
 .card-body{
   background-color: #ecf2ff;
 }
@@ -159,14 +161,11 @@ nav {
 .text-edit{
   font-size: 0.8em;
 }
-.signup{
-  
-  margin-top: 20px;
-  color: white;
-  border: 1px solid #158dd1;
-  border-radius: 15%;
-  background-color: #158dd1;
+
+.card-app{
+max-width: 325px;
 }
+
 .comment{
   padding: 4px;
   background-color: white;
@@ -175,13 +174,21 @@ nav {
 
 /* footer */
 footer{
-  background-color: blue;
+  background-color: #003980;
  list-style: none;
   
 }
 .footer-item{
   flex: 1;
   margin: 0 10px;
+  font-size: 0.7em;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+li{
+  padding: 7px 0px 7px 0px;
 }
 .image{
   width: 100%;
