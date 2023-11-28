@@ -8,7 +8,7 @@
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
-    /> 
+    />
     <link rel="stylesheet" href="./styles/style.css" />
     <title>SmartSpend</title>
   </head>
@@ -21,62 +21,39 @@
     </header>
 
     <main class="container text-center">
-      <h1>BIENVENUE</h1>
-      <!-- <div class="text-center">
-      <div class="form-compte ">
-        <div class="flexer-row">
-          <div class="btn-bx">
-            <button class="sinscrire ">
-             S'inscrire
-              
-            </button>
-              <button class="seconnecter ">
-                <span class="inter-normal-white-12px">Se connecter
-                </span>
-            </button>
-        </div>
-          <div class="login">
-            <div class="email quicksand-normal-white-12px">
-              <span class="quicksand-normal-white-12px">Email</span>
+      <h1 class="intro">BIENVENUE</h1>
+<!-- formulaire -->
+      <div class="container mb-3 cont-max-width">
+        <div class="signin text-center">
+          <form
+            action=""
+            onSubmit="{handleLogin}"
+            id="sign-in-form"
+            class="text-center p-4"
+          >
+            <div class="form-group mb-2">
+              <label for="email">Email</label>
+              <input type="text" name="email" id="email" class="form-control" />
             </div>
-            <input type="text" class="rectangle-3">
-            <div class="mot-de-passe ">
-              <span class="quicksand-normal-white-12px">Mot de passe</span>
+            <div class="form-group mb-2">
+              <label for="password">Mot de passe</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                class="form-control"
+              />
             </div>
-            <input type="text" class="rectangle-4">
-            <p class="mot-de-passe-oubli quicksand-bold-swiss-coffee-11px">
-              <span class="quicksand-normal-white-11px">Mot de passe oublié?</span>
-            </p>
-          </div>
+            <p><a href="#" class="remember">Mot de passe oublié?</a></p>
+            <input
+              type="submit"
+              value="Se connecter"
+              class="btn btn-v rounded-4 p-2"
+            />
+          </form>
         </div>
-        <button class="overalp-group">
-          <div class="se-connecter-1">
-            Se connecter
-          </div>
-        </button>
-     
       </div>
-    </div> -->
-       <div class="container mb-3 cont-max-width">
-      <div class="signin text-center">
-        <form
-          action=""
-          onSubmit="{handleLogin}"
-          id="sign-in-form"
-          class="text-center p-4">
-          <div class="form-group mb-2">
-            <label for="email">Email</label>
-            <input type="text" name="email" id="email" class="form-control" />
-          </div>
-          <div class="form-group mb-2">
-            <label for="password">Mot de passe</label>
-            <input type="password" name="password" id="password" class="form-control" />
-          </div>
-          <p><a href="#" class="remember">Mot de passe oublié?</a></p>
-          <input type="submit" value="Se connecter" class="btn btn-light" />
-        </form>
-      </div>
-    </div> 
+
       <!-- <div class="signin d-flex align-items-center justify-content-around mb-3 mb-md-0">
         <div class="d-flex flex-column mb-3 mb-md-0">
           <button class="btn btn-light mb-2 mb-md-0">S'inscrire</button>
@@ -102,45 +79,52 @@
         <input type="submit" value="Se connecter " class="btn btn-light" />
       </form>
     </div> -->
-      
-      <!-- card -->
-<button class="btn btn-light sinscrire mb-3">
-  S'inscrire
-</button>
 
-      <section class="container card-app">
-        <div class="card border border-2 rounded-4 " >
-          <img src="/img/logo3card.png" class="card-img-top" alt="...">
-          <div class="card-body text-center">
-            <p class="card-text text-edit">Votre gestionnaire financier intelligent. </p>
+      <!-- Button sincrire -->
+      <button class="btn inscrire mb-4 p-2 w-50 rounded-3">S'inscrire</button>
+
+      <!-- card presentation-->
+      <section class="container card-app mb-2">
+        <div class="card border border-2 rounded-4">
+          <img
+            src="/img/logo3card.png"
+            class="card-img-top rounded-4 card-photo"
+            alt="..."
+          />
+          <div class="card-body text-center rounded-4">
+            <p class="card-text text-edit">
+              <strong>Votre gestionnaire financier intelligent.</strong>
+            </p>
           </div>
         </div>
       </section>
 
       <!-- comments -->
-      <section class="container mt-3 cont-max-width">
+      <section class="container mt-4 mb-4 cont-max-width">
         <p class="comment border rounded-3 text-end ms-5">
           Découvrez une manière plus intelligente de gérer votre argent avec
-          SmartSpend. Oubliez les saisies manuelles et contrôlez vos dépenses
+          <strong>SmartSpend</strong>. Oubliez les saisies manuelles et contrôlez vos dépenses
           automatiquement.
         </p>
         <p class="comment border rounded-3 text-start me-5">
-          Contrôlez vos dépenses avec SmartSpend. Une application intuitive pour
+          Contrôlez vos dépenses avec <strong>SmartSpend</strong>. Une application intuitive pour
           prendre des décisions financières plus intelligentes.
         </p>
         <p class="comment border rounded-3 text-end ms-5">
-          Votre assistant financier personnel. Avec SmartSpend, le suivi de vos
+          Votre assistant financier personnel. Avec <strong>SmartSpend</strong>, le suivi de vos
           dépenses est simple et rapide.
         </p>
         <p class="comment border rounded-3 text-start me-5">
-          SmartSpend : l'outil essentiel pour une gestion financière
+          <strong>SmartSpend</strong>: l'outil essentiel pour une gestion financière
           intelligente. Commencez dès aujourd'hui.
         </p>
       </section>
     </main>
-<!-- footer -->
-    <footer class="container d-flex justify-content-around">
-      <div class="footer-item text-center p-1">
+
+    <!-- footer -->
+    <footer >
+      <div class="container d-flex justify-content-around align-items-center">
+      <div class="footer-item flex-item text-center ">
         <lu>
           <li><a href="">À propos de </a></li>
           <li><a href="">Contact</a></li>
@@ -149,22 +133,37 @@
           </li>
         </lu>
       </div>
-      <div class="image footer-item">
-        <img src="img/logonobg.png" alt="logo" />
+      <div class="image footer-item text-center">
+        <img src="img/logonobg.png" alt="logo" class="img-fluid mw-25" />
       </div>
-      <div class="footer-item text-center">
+      <div class="footer-item flex-item text-center ">
         <lu>
           <li><a href="">FAQs</a></li>
           <li><a href="">Informations sur les copyright</a></li>
           <li>
-            <a href="">reseau sociaux</a>
+            <a href="">Reseau sociaux</a>
+            <br>
+            <i class="fa fa-twitter"></i>
           </li>
         </lu>
       </div>
+    </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

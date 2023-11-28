@@ -7,7 +7,7 @@
 body {
   background-color: #ecf2ff;
 }
-
+/* header */
 nav {
   position: relative;
   display: flex;
@@ -24,6 +24,10 @@ nav {
   object-position: center;
 }
 
+.intro{
+  color: #062148;
+  text-shadow:2px 4px 6px #00000040 ;
+}
 /* .form-compte{
 
   background-color: #148dd1;
@@ -143,7 +147,7 @@ nav {
 
 
 
-
+/* formulaire */
 .signin{
   
   color: white;
@@ -151,25 +155,65 @@ nav {
   border-radius: 15%;
   background-color: #158dd1;
 }
+.btn-v{
+  background-color: #67bbdf;
+ width: 70%;
+ max-width: 220px;
+ box-shadow: 0px 4px 4px #00000040;
+}
+
+/* btn inscription */
+.inscrire{
+  background-color: #0052d0;
+  max-width: 300px;
+  box-shadow: 0px 4px 4px #00000040;
+  color: white;
+}
+
+
 .cont-max-width {
   max-width: 600px;
 }
+
+/* card presentation */
 .card-body{
   background-color: #ecf2ff;
 }
 
 .text-edit{
   font-size: 0.8em;
+  text-shadow: 2px 4px 6px #00000040;
+  color: #062148;
+ 
+  
 }
-
+@media only screen and (min-width: 600px) {
+  .text-edit {
+    font-size: 1.5em;
+  }
+}
 .card-app{
-max-width: 325px;
+max-width: 620px;
+
+}
+.card{
+  box-shadow: 0px 4px 4px #00000040;
+  background-color: #ecf2ff;
 }
 
+
+/* card- comments */
 .comment{
   padding: 4px;
   background-color: white;
   font-size: 0.7em;
+  box-shadow: 0px 6px 5px #abc7f3;
+}
+
+@media only screen and (min-width: 600px) {
+  .comment {
+    font-size: 1.5em; 
+  }
 }
 
 /* footer */
@@ -179,9 +223,8 @@ footer{
   
 }
 .footer-item{
-  flex: 1;
-  margin: 0 10px;
-  font-size: 0.7em;
+ flex: 1;
+  font-size: 0.6em;
 }
 a{
   text-decoration: none;
@@ -190,9 +233,9 @@ a{
 li{
   padding: 7px 0px 7px 0px;
 }
-.image{
-  width: 100%;
-}
-.image img {
-  width: 100%;
+
+@media only screen and (min-width: 600px) {
+  .footer-item{
+    font-size: 1.5em; 
+  }
 }
