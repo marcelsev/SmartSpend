@@ -8,6 +8,8 @@
     background-color: #ecf2ff;
   }
   
+
+  /* header */
   nav {
     position: relative;
     display: flex;
@@ -25,7 +27,15 @@
   }
 .cont-max-width {
   max-width: 600px;
+  
 }
+/* intro */
+.intro{
+  color: #062148;
+  text-shadow:2px 4px 6px #00000040 ;
+}
+
+/* formulaire */
   .recup{
  
     margin-top: 20px;
@@ -35,10 +45,12 @@
     background-color: #158dd1;
   }
 
-  .comment{
-    padding: 4px;
-    background-color: white;
-    font-size: 0.7em;
+  
+  .btn-v{
+    background-color: #67bbdf;
+   width: 70%;
+   max-width: 220px;
+   box-shadow: 0px 4px 4px #00000040;
   }
   
  
