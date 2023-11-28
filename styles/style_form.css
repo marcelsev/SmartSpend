@@ -6,13 +6,43 @@
 body {
   background-color: #ecf2ff;
 }
+.cont-max-width {
+  max-width: 600px;
+}
 
+.nav-img{
+  width: 25%;
+  max-width: 100px;
+}
 
+/* formulaire depenses */
+.depenses{
+  
+  color: white;
+  border: 1px solid #158dd1;
+  border-radius: 5%;
+  background-color: #158dd1;
+}
 
+.photo-card{
+  box-shadow: 0px 4px 4px #00000040;
+  width: 95%;
+}
+.btn-v{
+  background-color: #67bbdf;
+ width: 70%;
+ max-width: 220px;
+ box-shadow: 0px 4px 4px #00000040;
+}
 
+/* formulaire revenus */
 
-
-
+.revenus{
+  color: white;
+  border: 1px solid #0052d0;
+  border-radius: 5%;
+  background-color: #0052d0;
+}
 
 /* footer */
 footer{
@@ -30,6 +60,9 @@ a{
 }
 li{
   padding: 7px 0px 7px 0px;
+}
+.image{
+  max-width: 150px;
 }
 
 @media only screen and (min-width: 600px) {

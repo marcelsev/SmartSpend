@@ -7,7 +7,10 @@ body {
   background-color: #ecf2ff;
 }
 
-
+.nav-img{
+  width: 25%;
+  max-width: 100px;
+}
 
 
 
@@ -31,7 +34,9 @@ a{
 li{
   padding: 7px 0px 7px 0px;
 }
-
+.image{
+  max-width: 150px;
+}
 @media only screen and (min-width: 600px) {
   .footer-item{
     font-size: 1.5em; 
