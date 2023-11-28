@@ -7,7 +7,7 @@
   body {
     background-color: #ecf2ff;
   }
-  
+  /* header */
   nav {
     position: relative;
     display: flex;
@@ -24,18 +24,31 @@
     object-position: center;
   }
 
+
 .cont-max-width {
   max-width: 600px;
 }
+
+/* formulaire */
   .signup{
  
     margin-top: 20px;
     color: white;
     border: 1px solid #158dd1;
-    border-radius: 10%;
+    border-radius: 5%;
     background-color: #158dd1;
   }
+  .btn-v{
+    background-color: #67bbdf;
+   width: 70%;
+   max-width: 220px;
+   box-shadow: 0px 4px 4px #00000040;
+  }
+.checkbox{
+  box-shadow: 0px 4px 4px #00000040;
+}  
 
+  /* card-comment */
   .comment{
     padding: 4px;
     background-color: white;
